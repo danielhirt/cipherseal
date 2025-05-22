@@ -1,0 +1,6 @@
+Pillow
+text-blind-watermark
+ffmpeg-python
+fastapi
+uvicorn[standard]
+python-multipart

@@ -2,13 +2,13 @@
 
 ### Add hidden embedded watermarks to images and text.
 
-Combat AI misinformation and deepfakes with a random generated content ID.
+Combat AI misinformation and deepfakes with a randomly generated content ID that can be independently verified.
 
 ### Usage:
 
 #### CLI:
 
-*Note:* Only PNG format is currently supported for images. Lossy formats like JPEG may produce unexpected results due to lossy LSD conversion.
+*Note:* Only PNG format is currently supported for images. Lossy formats like JPEG may produce unexpected results due to lossy LSB conversion.
 
 Add watermark to image:
 `python -m src.service.cli add image path/to/your_sample_image.png -o path/to/watermarked_image.png`

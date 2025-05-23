@@ -6,6 +6,8 @@ Combat AI misinformation and deepfakes with a randomly generated content ID that
 
 ### Usage:
 
+Add `WATERMARKER_SECRET_KEY` to your environment and export it. This should be a strong randomly generated text string.
+
 #### CLI:
 
 *Note:* Only PNG format is currently supported for images. Lossy formats like JPEG may produce unexpected results due to lossy LSB conversion.
